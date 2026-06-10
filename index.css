@@ -1,0 +1,35 @@
+#face{
+    background-color: yellow;
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+}
+#left{
+    position:relative;
+    background-color: black;
+    height:50px;
+    width: 50px;
+    top:100px;
+    left:100px;
+    border-radius:50%;
+}
+#right{
+    position:absolute;
+    background-color: black;
+    height:50px;
+    width: 50px;
+    top:105px;
+    left:250px;
+    border-radius:50%;
+}
+#hihi{
+    position:absolute;
+    background-color: red;
+    height:75px;
+    width: 200px;
+    top:250px;
+    left:100px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
