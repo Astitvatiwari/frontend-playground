@@ -1,0 +1,22 @@
+.box {
+  height: 100px;
+  width: 300px;
+  background-color: pink;
+}
+
+#ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+  animation: move 2s ease-in-out 0s 5 alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}
